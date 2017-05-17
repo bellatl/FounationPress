@@ -1,0 +1,329 @@
+/*
+Appended stylesheet for FoundationPress
+*/
+*
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+@media print {
+    a[href]:after {
+        content: none!important
+    }
+    body {
+        background-image: none !important
+    }
+    #content {
+        background: 0 0;
+        width: 100%;
+        margin: 0;
+        float: none
+    }
+    dd,
+    dt,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    p,
+    ul {
+        font-size: 1em!important
+    }
+    a:link {
+        font-weight: 700;
+        text-decoration: underline;
+        color: #06c
+    }
+    .pageWrapper {
+        background-color: none;
+        border-left: none!important;
+        border-right: none!important;
+        border-bottom: none!important
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif !important
+}
+@media only screen and (max-width:40em) {
+    html {
+        background: none;
+        -webkit-background-size: none;
+        -moz-background-size: none;
+        -o-background-size: none;
+        background-size: none;
+    }
+    body {
+        background: none !important;
+    }
+    .logo {
+        background-color: white;
+        border: none;
+        margin-top: none;
+        margin-bottom: none;
+        padding: .9375em
+    }
+    .pageWrapper {
+        background-color: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        padding: 0
+    }
+    .content {
+        padding-left: 35px
+    }
+    .sidebar {
+        background-color: #f2f2f1;
+        color: #333;
+        font-size: 14px
+    }
+    .leftHeader {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .rightHeader {
+        text-align: center;
+    }
+    .rightHeader h4 {
+        color: #19325c;
+        font-family: 'Lora', serif !important;
+        font-style: italic;
+    }
+    .navbar-default {
+        border-top-left-radius: 0!important;
+        border-top-right-radius: 0!important
+    }
+    .footer {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width:40.063em) {
+    html {
+        background: url(http://elite1705.inmotionhosting.com/~norths61/endocrineatlanta-new.com/media/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    body {
+        background: none !important;
+        font-style: normal !important
+    }
+    .logo {
+        width: 600px;
+        height: 99px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: #fefefe
+    }
+    .pageWrapper {
+        background-color: white;
+        border-left: 1px solid #c6c6c6;
+        border-right: 1px solid #c6c6c6;
+        border-bottom: 1px solid #c6c6c6;
+        padding-left: .9375em;
+        padding-right: .9375em
+    }
+    .sidebar {
+        background-color: #f2f2f2;
+        color: #333;
+        font-size: 14px;
+        padding-right: .625em;
+        padding-left: .625em;
+        padding-bottom: .625em;
+        margin-top: 1em;
+    }
+    .leftHeader {
+        float: left
+    }
+    .rightHeader {
+        float: right;
+        margin-top: 40px;
+        text-align: right
+    }
+    .rightHeader p {
+        float: right;
+        font-size: 24px
+    }
+    .rightHeader h4 {
+        color: #19325c;
+        font-family: 'Lora', serif !important;
+        font-style: italic;
+    }
+    .calllg,
+    .callxs {
+        padding-bottom: 0;
+        font-family: Poly, serif
+    }
+    .rightHeader a {
+        color: #a7a9ac !important
+    }
+    .calllg,
+    .callxs,
+    .callxs a {
+        color: #19325c
+    }
+    .calllg {
+        font-size: 36px;
+        line-height: .7
+    }
+    .callxs {
+        font-size: 24px
+    }
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap
+}
+#main a {
+    color: #636363!important
+}
+ul {
+    margin-left: 40px
+}
+p {
+    margin-bottom: 1em;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+.contain-to-grid,.top-bar{
+    width: 100%;
+    position: relative;
+    padding: 0;
+    z-index: 2;
+    background: #002e5f; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#002e5f,#022041); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#002e5f,#022041); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#002e5f,#022041); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #002e5f, #022041); /*Standard*/;
+    border-top: 3px solid #336699;
+}
+.top-bar-section li {
+    background: #19325c!important
+}
+.top-bar-section ul li:hover:not(.has-form)>a {
+    color: white!important;
+    background: #115e30!important
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: #115e30!important
+}
+.top-bar-section ul li>a {
+    font-size: 1em!important;
+    font-family: Muli, Helvetica, Arial, sans-serif!important;
+    font-weight: 300!important
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #19325c!important
+}
+.divider {
+    height: 50px;
+    border-right: solid 1px #7f7f7f!important
+}
+.rotator {
+    width: 100%;
+    height: 500px
+}
+.header {
+    width: 100%;
+    margin: 0 auto;
+}
+.slides {
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6
+}
+@media screen and (max-width:860px) {
+    .flex-direction-nav .flex-prev {
+        opacity: 1;
+        left: 10px
+    }
+    .flex-direction-nav .flex-next {
+        opacity: 1;
+        right: 10px
+    }
+}
+.mobiletitle h2 {
+    color: #00305e;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Muli, sans-serif
+}
+.classy h2,
+.classy h5 {
+    position: absolute;
+    color: #00305e;
+    margin-left: 30px
+}
+.classy h2,
+.classytoo h2 {
+    font-family: Muli, sans-serif!important;
+    text-transform: uppercase;
+    font-weight: 300!important
+}
+.classy h2 {
+    margin-top: 50px
+}
+.classytoo h2 {
+    color: #00305e
+}
+.classy h5 {
+    font-family: Muli, sans-serif;
+    margin-top: 60px
+}
+.footer {
+    text-align:center;
+    z-index:-1;
+    background: #002e5f; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#002e5f,#022041); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#002e5f,#022041); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#002e5f,#022041); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #002e5f, #022041); /*Standard*/
+    margin-bottom: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-box-shadow: 0 3px 10px 0 #adadad;
+    -webkit-box-shadow: 0 3px 10px 0 #adadad;
+}
+.footer p {
+    font-size: 14px;
+    color: white;
+}
+.footer a {
+    color: white;
+    position: relative;
+}
+.google-maps {
+    border: 1px solid #ccc;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    height: 100%!important
+}
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+    padding:2em 0
+}
+h2.entry-title {
+    padding-top: .625em;
+    padding-left: .35em;
+}
