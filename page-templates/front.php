@@ -10,7 +10,8 @@ get_header(); ?>
 </header>
 
 <div class="row pageWrapper animated fadeIn">
-<div class="small-12 large-8 columns" role="main">
+<div class="small-12 large-8 columns" role="main"><br />
+<?php echo do_shortcode('[fiatalert]');?>
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 <section role="main">
