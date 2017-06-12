@@ -21,15 +21,15 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header hide-for-print" role="banner">
 		<?php get_template_part( 'template-parts/head' ); ?>
 		<div class="show-for-small-only">
 			<?php wp_nav_menu( array( 'theme_location' => 'top-bar-r' ) ); ?>
 		</div>
 		<div class="row nav hide-for-print">
-		<nav id="site-navigation" class="main-navigation top-bar hide-for-small-only" role="navigation">
+		<nav id="site-navigation" class="main-navigation top-bar hide-for-small-only hide-for-print" role="navigation">
 			<div class="top-bar-left">
-				<ul class="menu">
+				<ul class="menu hide-for-print">
 						<?php foundationpress_top_bar_r(); ?>
 				</ul>
 			</div>
