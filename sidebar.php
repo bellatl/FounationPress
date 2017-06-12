@@ -7,9 +7,8 @@
  */
 
 ?>
-<aside class="sidebar small-12 large-4 columns"><br />
+<aside class="sidebar small-12 large-4 columns hide-for-print"><br />
 	<?php do_action( 'foundationpress_before_sidebar' ); ?>
 	<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
 	<?php do_action( 'foundationpress_after_sidebar' ); ?>
 </aside>
-<p>&nbsp;</p>
