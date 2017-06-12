@@ -27,38 +27,26 @@
 
 // Individual foundation components
 @include foundation-grid;
-// @include foundation-flex-grid;
 @include foundation-typography;
-@include foundation-forms;
 @include foundation-button;
 @include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
-@include foundation-button-group;
+//@include foundation-button-group; Deactivated for non use
 @include foundation-callout;
 @include foundation-card;
 @include foundation-close-button;
-@include foundation-menu;
-@include foundation-menu-icon;
-@include foundation-drilldown-menu;
+//@include foundation-menu; Deactivated for use of mega menu
 @include foundation-dropdown;
 @include foundation-dropdown-menu;
 @include foundation-responsive-embed;
 @include foundation-label;
 @include foundation-media-object;
-@include foundation-off-canvas;
+//@include foundation-off-canvas; Deactivated for use of mega menu
 @include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
-@include foundation-sticky;
+//@include foundation-slider; Deactivated for use of Smart Slider
 @include foundation-reveal;
-@include foundation-switch;
 @include foundation-table;
-@include foundation-tabs;
 @include foundation-thumbnail;
-@include foundation-title-bar;
+//@include foundation-title-bar; Deactivated for non use
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
