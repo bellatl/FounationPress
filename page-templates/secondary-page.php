@@ -7,7 +7,7 @@ get_header(); ?>
 <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 <div class="row pageWrapper animated fadeIn">
-<div class="small-12">
+<div class="small-12 columns">
 <?php while ( have_posts() ) : the_post(); ?>
   <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
       <header>
