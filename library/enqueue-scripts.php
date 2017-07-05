@@ -9,7 +9,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 
 	wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/stylesheets/foundation.min.css', array(), '2.9.2', 'all' );
 
-	wp_enqueue_style( 'appended-stylesheet', get_template_directory_uri() . '/assets/stylesheets/append.min.css', array(), '1.0.0', 'all' );
+	wp_enqueue_style( 'appended-stylesheet', get_template_directory_uri() . '/assets/stylesheets/append.css', array(), '1.0.0', 'all' );
 
 	wp_enqueue_style( 'googlefont', 'https://fonts.googleapis.com/css?family=Lora:400,700', '1.0.0', false );
 
