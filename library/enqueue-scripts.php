@@ -7,7 +7,7 @@
 if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	function foundationpress_scripts() {
 
-	wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/stylesheets/foundation.min.css', array(), '2.9.2', 'all' );
+	wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/stylesheets/foundation.min.css', array(), '2.9.3', 'all' );
 
 	wp_enqueue_style( 'appended-stylesheet', get_template_directory_uri() . '/assets/stylesheets/append.css', array(), '1.0.0', 'all' );
 
