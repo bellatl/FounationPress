@@ -56,3 +56,13 @@ add_filter( 'auto_update_plugin', '__return_true' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+
+// Takes commenting away from media
+function filter_media_comment_status( $open, $post_id ) {
+    $post = get_post( $post_id );
+    if( $post->post_type == 'attachment' ) {
+        return false;
+    }
+    return $open;
+}
+add_filter( 'comments_open', 'filter_media_comment_status', 10 , 2 );
